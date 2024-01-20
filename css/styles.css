@@ -15,8 +15,11 @@ ul {
  list-style-type: none;
 }
 
+ul {
+    font-size: normal;
+}
 a {
-    text-transform: uppercase;
+    font-size: none;
 
 }
 
@@ -49,10 +52,6 @@ color: var(--IRIS, #4D5AE5);
 .header-menu:focus {
     color: #404bbf;
 }
-
-
-
-
 
 .adress-info {
     font-size: normal;
@@ -109,7 +108,6 @@ background:#2E2F42;
 
 /*========main=text=====*/
 
-
 .main-text-info {
     color: #2E2F42;
         /* Header 3 */
@@ -136,7 +134,7 @@ background:#2E2F42;
 /*=============main=team=====*/
 
 .main-section-team{
-    background:#FFFFFF;
+    background:#F4F4FD;
 }
 .main-out-team {
     color: #2E2F42;
@@ -220,7 +218,7 @@ background:#2E2F42;
 
 .footer-webl {
     color:#4d5ae5;
-    font-family:"Raleway",sans-serif ;
+    font-family:"Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height:1.17;
@@ -229,11 +227,9 @@ background:#2E2F42;
 }
 
 .footer-webl span {
-    color:#F4F4FD;
-}
+    color: #F4F4FD;}
 .footer-text {
-    color:#F4F4FD;
-        /* Body */
+    color: #F4F4FD;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
