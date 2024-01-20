@@ -16,7 +16,7 @@ a {
 };
 
 .header-logo{
-    font-family:"Raleway", sans-serif;
+    font-family:"Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -50,7 +50,7 @@ a {
 /*=============main======*/
 
 .main-section {
-background: #2E2F42;
+background:#2E2F42;
 }
    
 
@@ -75,7 +75,8 @@ background: #2E2F42;
         line-height: 1.5;
         letter-spacing: 0.04em;
 
-    background:#404BBF;
+    background:#4D5AE5;
+    cursor: pointer;
 }
 
 /*========main=text=====*/
@@ -131,7 +132,7 @@ background: #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
 .main-profesional{
@@ -142,14 +143,14 @@ background: #2E2F42;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
 /*========portfolio=======*/
 
 
 .main-section-portfolio{
-    background: #FFF;
+    background:#FFFFFF;
 }
 
 .main-our{
@@ -171,7 +172,7 @@ background: #2E2F42;
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 1.12;
+        line-height: 1.2;
         letter-spacing: 0.02em;
 }
 
@@ -181,7 +182,7 @@ background: #2E2F42;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height:1.15;
+        line-height:1.5;
         letter-spacing: 0.02em;
 }
 
