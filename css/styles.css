@@ -148,12 +148,11 @@ background:#2E2F42;
 
 
 .main-imge-team {
-color: var(--NAVY-BLUE, #2E2F42);
+color:#2E2F42;
     text-align: center;
     /* Header 3 */
-    font-family: Roboto;
+    font-family: " Roboto",sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
