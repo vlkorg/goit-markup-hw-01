@@ -132,6 +132,16 @@ background:#2E2F42;
 
 /*=============main=team=====*/
 .main-fone{
+color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
     background-color: #FFFFFF;
 }
 
@@ -169,14 +179,14 @@ color:#2E2F42;
 }
 
 .main-our {
-    color: #2E2F42;
+    color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
-    font-family:"Roboto",sans-serif;
+    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02;
     text-transform: capitalize;
 
 }
