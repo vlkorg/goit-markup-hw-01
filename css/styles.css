@@ -11,16 +11,15 @@ letter-spacing: 0,032;
     background-color: #FFFFFF
 }
 
+.adress-info {
+    font-style: normal;
+}
 ul {
  list-style-type: none;
 }
 
-ul {
-    font-size: normal;
-}
 a {
-    font-size: none;
-
+text-decoration: none;
 }
 
 .header-logo {
@@ -228,6 +227,7 @@ background:#2E2F42;
 
 .footer-webl span {
     color: #F4F4FD;}
+    
 .footer-text {
     color: #F4F4FD;
         font-family: Roboto;
