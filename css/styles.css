@@ -131,7 +131,7 @@ background:#2E2F42;
 }
 
 /*=============main=team=====*/
-.main-fone{
+.main-fonne{
 color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
@@ -141,15 +141,13 @@ color: var(--NAVY-BLUE, #2E2F42);
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
-    background-color: #FFFFFF;
 }
 
 .main-section-team {
     background: #F4F4FD;
 }
 
-.main-imge-team {
+.main-img-teams {
 color:#2E2F42;
     text-align: center;
     /* Header 3 */
@@ -173,10 +171,6 @@ color:#2E2F42;
 
 /*========portfolio=======*/
 
-
-.main-section-portfolio {
-    background:#FFFFFF;
-}
 
 .main-our {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -211,6 +205,9 @@ color:#2E2F42;
         letter-spacing: 0.02em;
 }
 
+.main-section-portfolio {
+    background: #FFFFFF;
+}
 /*=========footeeer=====*/
 
 .footer {
