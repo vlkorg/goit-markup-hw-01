@@ -131,7 +131,12 @@ background:#2E2F42;
 }
 
 /*=============main=team=====*/
-.main-fonne {
+
+.main-fone-list{
+background-color: #FFFFFF;
+}
+
+.main-fone {
 color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
@@ -141,7 +146,16 @@ color: var(--NAVY-BLUE, #2E2F42);
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    background-color: #FFFFFF;
+}
+
+.main-img-team-men 
+{color: #2E2F42;
+    /* Header 3 */
+    font-family: " Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .main-section-team {
