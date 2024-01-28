@@ -213,6 +213,7 @@ color: #2E2F42;
     background: #FFFFFF;
     padding: 120px 0;
     margin-bottom: 8px;
+    padding: 120px 0;
 }
 
 /*=============main=team=====*/
@@ -257,7 +258,7 @@ margin-bottom: 8px;
 }
 
 .main-section-team {
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .main-section-team-container {
@@ -289,10 +290,15 @@ color:#2E2F42;
 /*========portfolio=======*/
 
 .main-our {
-    border-top: 60px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
+.container-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 .main-list-portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -334,7 +340,7 @@ color:#2E2F42;
 
 .main-section-portfolio {
     background: #FFFFFF;
-    padding: top 120px;
+    padding-top: 120px;
      padding-bottom: 120px;
 }
 /*=========footeeer=====*/
