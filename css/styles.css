@@ -191,11 +191,14 @@ color: #2E2F42;
         margin-bottom: 8px;
   
 }
+
 .container-text {
     display: flex;
     gap: 24px;
 }
- .main-info-text{
+
+.main-text-info {
+    margin-bottom: 8px;
 }
 
 .main-title {
@@ -233,6 +236,9 @@ color: var(--NAVY-BLUE, #2E2F42);
     max-height: 40px;
     margin:0 auto;
 }
+.main-fone {
+    margin-bottom: 72px;
+}
 .main-fone-list {
     border-radius: 0px 0px 4px 4px;
 
@@ -244,6 +250,7 @@ color: var(--NAVY-BLUE, #2E2F42);
  }
  .container-team {
   text-align: center;
+  padding: 32px 0;
  }
 
 .main-img-team-men {
@@ -289,8 +296,7 @@ color:#2E2F42;
 }
 
 /*========portfolio=======*/
-
-.main-our {
+.main-oure {
     margin-bottom: 72px;
 }
 
@@ -298,7 +304,6 @@ color:#2E2F42;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .main-list-portfolio {
     display: flex;
@@ -306,7 +311,7 @@ color:#2E2F42;
     gap: 48px 24px;
 }
 
-.main-our {
+.main-oure {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
@@ -326,7 +331,7 @@ color:#2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.02em;
+        margin-bottom: 8px
 }
 
 .main-prod-appe {
@@ -366,7 +371,7 @@ color:#2E2F42;
 .footer-container {
     background: #2E2F42;
     padding-top: 101.5px;
-        padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text{
