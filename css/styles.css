@@ -192,21 +192,26 @@ color: #2E2F42;
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
- .main-info-text {
-    color: #2E2F42;
-        /* Header 3 */
-        font-family: Roboto;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
-        margin-bottom: 8px;
-  
-}
 
-.container-text {
+ .main-info-text {
+      color: #2E2F42;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.20;
+      letter-spacing: 0.02em;
+      margin-bottom: 8px;
+ }
+
+ .main-text-info {
     display: flex;
     gap: 24px;
+ }
+
+
+.benefis-container {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4)
 }
 .main-text-item {
     flex-basis: calc((100% - 72px) / 4);
@@ -220,6 +225,7 @@ color: #2E2F42;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: start;
 }
 
 .main-text {
