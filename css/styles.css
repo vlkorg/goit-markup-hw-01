@@ -14,11 +14,18 @@ img{
     display: block;
 }
 
-p, h1, h2, h3, h4, h5, h6,ul {
+p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     margin-bottom: 0;
     list-style-type: none;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .container {
     width: 100%;
     max-width: 1158px;
