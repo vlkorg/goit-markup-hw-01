@@ -13,7 +13,6 @@ margin:0 auto;
 img {
     display: block;
     max-width: 100%;
-   
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -264,15 +263,7 @@ border-radius: 0px 0px 4px 4px;
     background-color: #F4F4FD;
 }
 
-.main-img-team {
-    display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 32px;
-}
-.main-img-prod{
-    display: flex;
+.main-img-team { 
 }
 
 .main-img-teams {
