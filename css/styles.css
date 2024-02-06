@@ -334,7 +334,7 @@ color: var(--NAVY-BLUE, #2E2F42);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-icon-webl:hover{
+.icon-link-webl:hover{
     background-color: #404bbf;
 }
 .icon-link-webl:focus {
@@ -343,6 +343,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 .icon-icon-webl {
     fill:#f4f4fd;
+
 }
 
 
@@ -536,7 +537,6 @@ font-weight: 500;
 }
 
 .footer-item {
-    display: flex;
     align-items: baseline;
     margin-left: 120px;
 }
