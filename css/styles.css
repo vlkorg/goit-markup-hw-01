@@ -267,10 +267,6 @@ color: var(--IRIS, #4D5AE5);
     margin-bottom: 8px;
 }
 
-.info-materials {
-    
-}
-
 
 
 /*=============main=team=====*/
@@ -391,6 +387,10 @@ color:#2E2F42;
     letter-spacing: 0.02;
     text-transform: capitalize;
 
+}
+
+.main-img-prod{
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .main-prod-info {
