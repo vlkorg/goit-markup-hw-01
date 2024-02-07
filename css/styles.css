@@ -482,9 +482,10 @@ display: flex;
     align-items: baseline;
     justify-content: left;
 }
-.footer-logo {  
-}
 
+.foter-logo{
+    margin-right: 120px;
+}
 
 .footer-webl {
     color:#4d5ae5;
@@ -496,7 +497,6 @@ display: flex;
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-
 }
 
 .footer-info {
