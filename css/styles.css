@@ -316,7 +316,7 @@ color: var(--NAVY-BLUE, #2E2F42);
         justify-content: center;
         align-items: center;
         gap: 24px;
-        padding-top: 8px;
+        margin-top: 8px;
 }
 
 .icon-link-webl {
@@ -533,7 +533,6 @@ font-weight: 500;
 
 .footer-item {
     align-items: baseline;
-    margin-left: 120px;
 }
 
 .footer-webl-span {
