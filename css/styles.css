@@ -559,13 +559,23 @@ font-weight: 500;
     left: 0;
     background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-form {
+     cursor: pointer;
+     min-width: 165px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: none;
+     border-radius: 4px;
+     display: flex;
+     background-color: #4d5ae5;
+     gap: 24px;
+}
 
 .section-box {
     padding: 72px 24px 24px 24px;
@@ -623,17 +633,23 @@ font-weight: 500;
 }
 
 .modal-lable {
-    margin-bottom: 4px;
+        margin-bottom: 4px;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        display: block;
 }
 
 label {
     margin: 0;
     padding: 0;
+}
+
+.checkbox-label {
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 
 .modal-imput-icon {
@@ -716,7 +732,6 @@ label {
 }
 
 
-
 .modal-textarea::placeholder {
     font-size: 12px;
     color: rgb(46, 47, 66, 0.4);
@@ -740,6 +755,7 @@ label {
 .checkbox-label-span {
     width: 16px;
     height: 16px;
+    margin-right: 8px;;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -751,7 +767,11 @@ label {
 }
 
 .checkbox-link {
-    color: #4d5ae5;
+    color: #4D5AE5;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        text-decoration-line: underline;
 }
 
 .upper-form {
@@ -770,6 +790,14 @@ label {
     padding: 16px 32px;
     min-width: 169px;
     height: 56px;
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -780,19 +808,10 @@ label {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
+    margin: 0 auto;
 }
 
 
-.send {
-    color: var(--WHITE, #FFF);
-        text-align: center;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-}
 
 .is-open {
     display: block;
