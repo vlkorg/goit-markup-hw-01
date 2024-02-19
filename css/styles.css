@@ -603,7 +603,7 @@ font-weight: 500;
 }
 
 .footer-btn-icon {
-    
+    margin-left: 16px;
 }
 
 .section-box {
@@ -663,7 +663,7 @@ font-weight: 500;
         margin-bottom: 16px;
 }
 
-.modal-lable {
+.modal-label {
     color: var(--LIGHT-SLATE, #8E8F99);
         font-size: 12px;
         font-style: normal;
@@ -688,7 +688,7 @@ label {
     letter-spacing: 0.04em;
 }
 
-.modal-imput-icon {
+.modal-input-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -782,10 +782,10 @@ label {
     position: relative;
 }
 
-.checkbox-hidden:checked+.checkbox-label-span {
+.checkbox-hidden:checked + .checkbox-label .checkbox-label-span {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    fill:#F4F4FD;
 }
 
 .checkbox-label-span {
@@ -820,7 +820,8 @@ label {
 }
 
 .button-close:hover,
-.button-close:focus { 
+.button-close:focus,
+ .button-close:active { 
     background-color: #404bbf;
     border: none;
 }
