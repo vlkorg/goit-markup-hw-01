@@ -5,8 +5,7 @@ background-color:#FFF;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-max-width: 1440px;
-
+width: 1440px;
 margin:0 auto;
 }
 
@@ -559,8 +558,11 @@ font-weight: 500;
     left: 0;
     background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     border-radius: 4px;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1),
+     250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: auto;
 }
 
 .footer-form {
@@ -824,6 +826,7 @@ label {
  .button-close:active { 
     background-color: #404bbf;
     border: none;
+    fill:#FFFFFF;
 }
 
 .icon-button-close:hover,
@@ -860,5 +863,7 @@ label {
 
 
 .is-open {
-    display: block;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
