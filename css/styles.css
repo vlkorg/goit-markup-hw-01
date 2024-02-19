@@ -572,6 +572,10 @@ font-weight: 500;
      margin-left: 16px;
 }
 
+.footer-form-container {
+    margin-left: 80px;
+}
+
 .footer-container-text {
     margin-bottom: 16px;
     font-weight: 500;
@@ -579,6 +583,7 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-left: 16px;
 }
 
 .footer-form-text {
@@ -598,7 +603,7 @@ font-weight: 500;
 }
 
 .footer-btn-icon {
-    margin-left: 16px;
+    
 }
 
 .section-box {
@@ -808,6 +813,10 @@ label {
 
 .upper-form {
     text-align: right;
+}
+
+.modal-form-comment {
+    margin-bottom: 16px;
 }
 
 .button-close:hover,
