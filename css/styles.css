@@ -643,7 +643,6 @@ font-weight: 500;
     background-color: #e7e9fc;
 }  
 
-
 .icon-button-close {
     position: absolute;
     top: 50%;
@@ -652,9 +651,6 @@ font-weight: 500;
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-
 
 .modal-text{
     color: var(--NAVY-BLUE, #2E2F42);
