@@ -565,14 +565,11 @@ font-weight: 500;
 
 .footer-form {
      cursor: pointer;
-     min-width: 165px;
-     height: 40px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
      border: none;
      border-radius: 4px;
      display: flex;
+     gap: 24px;
+     margin-left: 16px;
 }
 
 .footer-container-text {
@@ -582,10 +579,14 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    gap: 24px;
 }
 
 .footer-form-text {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -594,6 +595,10 @@ font-weight: 500;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+}
+
+.footer-btn-icon {
+    margin-left: 16px;
 }
 
 .section-box {
