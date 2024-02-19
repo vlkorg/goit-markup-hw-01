@@ -615,6 +615,7 @@ font-weight: 500;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     background: #fcfcfc;
+    width: 100%;
     width: 408px;
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
