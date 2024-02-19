@@ -1,12 +1,12 @@
 .body {
-    font-family:"Roboto", sans-serif;
+font-family:"Roboto", sans-serif;
 color: #434455;
 background-color:#FFF;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 1440px;
-width: 100%;
+
 margin:0 auto;
 }
 
@@ -828,7 +828,7 @@ label {
 
 .icon-button-close:hover,
 .icon-button-close:focus {
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .modal-button {
