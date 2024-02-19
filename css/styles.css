@@ -573,8 +573,27 @@ font-weight: 500;
      border: none;
      border-radius: 4px;
      display: flex;
-     background-color: #4d5ae5;
-     gap: 24px;
+}
+
+.footer-container-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    gap: 24px;
+}
+
+.footer-form-text {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
 }
 
 .section-box {
@@ -611,14 +630,16 @@ font-weight: 500;
     background-color: #e7e9fc;
 }  
 
+
 .icon-button-close {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     fill: #2e2f42;
-  
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 
 
@@ -633,11 +654,16 @@ font-weight: 500;
 }
 
 .modal-lable {
-        margin-bottom: 4px;
+    color: var(--LIGHT-SLATE, #8E8F99);
         font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
         line-height: 1.17;
         letter-spacing: 0.04em;
-        color: #8e8f99;
+        color: #8E8F99;
+        display: block;
+        margin-bottom: 4px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 label {
@@ -760,10 +786,11 @@ label {
     align-items: center;
     justify-content: center;
     border-radius: 2px;
+    fill: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-link {
@@ -778,11 +805,15 @@ label {
     text-align: right;
 }
 
-.button-close:hover .button-close-svg,
-.button-close:focus .button-close-svg {
-    fill: #ffffff;
+.button-close:hover,
+.button-close:focus { 
     background-color: #404bbf;
     border: none;
+}
+
+.icon-button-close:hover,
+.icon-button-close:focus {
+    fill: #ffffff
 }
 
 .modal-button {
@@ -792,7 +823,7 @@ label {
     height: 56px;
     color: var(--WHITE, #FFF);
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
