@@ -795,20 +795,21 @@ label {
 
 
 .checkbox-label-span {
+    color: #8e8f99;
+    text-decoration: underline;
     width: 16px;
     height: 16px;
-    margin-right: 8px;
-    fill: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
-     align-items: center;
-     justify-content: center;
-     border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    margin-right: 8px;
 }
-
 
 .form-check:checked + .checkbox-label span {
     background-color: #404bbf;
